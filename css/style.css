@@ -417,21 +417,62 @@ h5 {
 }
 
 
-#main_contacto{
-    background-color: #A0BFE0;
-    color: black;
-}
-
 #main_contacto section h2 {
     background-color: #2660a4;
     color: black;
 }
 
-.telefono{
-    width: 150px;
+.contacto_AV {
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+    color: rgb(250, 250, 253);
+    font-size: 50px;
+    background-color: #94ADD7;
+    display: inline;
+    position: relative;
+    top: -16px;
+    left: 140px;
 }
-.email{
+
+.contacto_Compromiso {
+    font-family: 'Noto Serif Display', serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #94ADD7;
+    display: inline;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+    left: -261px;
+}
+
+.contacto_nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #94ADD7;
+    font-size: 30px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.contacto_ul a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #94ADD7;
+    width: 180px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.telefono {
     width: 150px;
+    height: 150px;
+}
+
+.email {
+    width: 120px;
+    height: 120px;
 }
 
 footer {
@@ -440,13 +481,95 @@ footer {
     text-align: center;
 }
 
-.instagram{
+.instagram {
     width: 50px;
 }
 
-.facebook{
+.facebook {
     width: 50px;
 }
+
 .creador {
     text-align: left;
+}
+
+@media (max-width: 550px) {
+    .logo {
+        width: 150px;
+        display: inline;
+    }
+
+    .AV {
+        font-family: 'Noto Serif Display', serif;
+        color: rgb(250, 250, 253);
+        font-size: 30px;
+        background-color: #94ADD7;
+        position: relative;
+        top: -91px;
+        left: 11px;
+    }
+
+    .Compromiso {
+        font-family: 'Noto Serif Display', serif;
+        font-style: italic;
+        text-align: center;
+        background-color: #94ADD7;
+        left: 189px;
+    }
+
+    .nav {
+        position: relative;
+        top: -45px;
+        right: 0px;
+    }
+
+    .quienes_somos {
+        display: grid;
+        width: 541px;
+        height: 708px;
+        grid-template-columns: 40% 60%;
+        grid-template-areas:
+            "uno dos"
+            "uno tres"
+            "cuatro cinco"
+            "cuatro seis"
+            "siete ocho"
+            "siete nueve";
+    }
+
+    .daniela {
+        width: 207px;
+    }
+    .juan_carlos {
+        width: 207px;
+        height: 175px;
+    }
+    .jimena {
+        width: 207px;
+        height: 187px;
+    }
+
+    .servicios {
+        display: grid;
+        width: 541px;
+        height: 708px;
+        grid-template-columns: 40% 60%;
+        grid-template-areas:
+            "uno dos"
+            "uno tres"
+            "cuatro cinco"
+            "cuatro seis"
+            "siete ocho"
+            "siete nueve";
+    }
+
+    .ISO {
+        width: 207px;
+    }
+    .gestion {
+        width: 207px;
+    }
+    .documentacion_gestion {
+        width: 207px;
+    }
 }
