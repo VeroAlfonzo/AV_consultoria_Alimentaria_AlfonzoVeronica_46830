@@ -275,6 +275,18 @@ h5 {
     text-align: center;
     font-size: 30px;
 }
+
+#main_clientes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main_clientes div img {
+    width: 150px;
+    height: 150px;
+}
+
 .arcor{
     width: 150px;
 }
