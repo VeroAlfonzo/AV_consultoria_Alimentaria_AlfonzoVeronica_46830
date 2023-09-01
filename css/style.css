@@ -196,16 +196,74 @@ h5 {
     color: black;
 }
 
+.servicios_corporativos {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.servicios_restaurantes {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.servicios {
+    display: grid;
+    width: 1100px;
+    height: 650px;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+        "uno dos "
+        "uno tres"
+        "cuatro cinco"
+        "cuatro seis"
+        "siete ocho"
+        "siete nueve"
+    ;
+    justify-items: start;
+    align-items: center;
+    margin: auto;
+}
+
 .iso_9001{
-    width: 300px;
+    grid-area: uno;
 }
-
+.Impletentación{
+    grid-area: dos;
+}
+.Buenas_practicas{
+    grid-area: tres;
+}
 .gestion_de_calidad{
-    width: 300px;
+    grid-area: cuatro;
+}
+.herramientas{
+    grid-area: cinco;
+}
+.entandarizacion{
+    grid-area: seis;
+}
+.documentacion_gestion_calidad{
+    grid-area: siete;
+}
+.documentacion{
+    grid-area: ocho;
+}
+.desarrollo{
+    grid-area: nueve;
 }
 
-.documentacion_gestion_calidad{
-    width: 300px;
+.ISO {
+    width: 260px;
+}
+
+.gestion {
+    width: 260px;
+}
+
+.documentacion_gestion {
+    width: 260px;
 }
 
 #main_clientes {
