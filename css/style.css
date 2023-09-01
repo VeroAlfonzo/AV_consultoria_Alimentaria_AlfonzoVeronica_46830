@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Serif+Display:wght@500 & display=swap');
+
+@font-face {
+    font-family: "Proza libre";
+    src: url('../resource/font/ProzaLibre-Bold.tt');
+}
+
+@font-face {
+    font-family: "Cormorant garamond";
+    src: url('../resource/font/CormorantGaramond-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 250px;
+    display: inline;
+}
+
+.AV {
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+    color: rgb(250, 250, 253);
+    font-size: 50px;
+    background-color: #94ADD7;
+    display: inline;
+    position: relative;
+    top: -123px;
+    left: 140px;
+}
+
+.Compromiso {
+    font-family: 'Noto Serif Display', serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #94ADD7;
+    display: inline;
+    position: relative;
+    top: -93px;
+    left: -261px;
+}
+
+.header {
+    background-color: #94ADD7;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: #94ADD7;
+    font-size: 20px;
+}
+
+a{
+    background-color: #94ADD7;
+    width: 180px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+.nav{
+    position: relative;
+    top: -80px;
+    left: 250px;
+}
+
+h2 {
+    font-family: "Cormorant garamond";
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#main_index {
+    background-color: #A0BFE0;
+}
+
+h2 {
+    background-color: #2660a4;
+    color: black;
+}
+
+.mujer_laboratorio{
+    width: 250px;
+}
+
+.daniela{
+    width: 250px;
+}
+
+.juan_carlos{
+    width: 250px;
+}
+
+#main_servicios {
+    background-color: #A0BFE0;
+    color: black;
+}
+
+.iso_9001{
+    width: 300px;
+}
+
+.gestion_de_calidad{
+    width: 300px;
+}
+
+.documentacion_gestion_calidad{
+    width: 300px;
+}
+
+#main_clientes {
+    background-color: #A0BFE0;
+    color: black;
+}
+
+.Nuestros_clientes{
+    text-align: center;
+    font-size: 30px;
+}
+.arcor{
+    width: 150px;
+}
+
+.canuelas{
+    width: 150px;
+}
+
+.la_virginia{
+    width: 150px;
+}
+
+.manaos{
+    width: 150px;
+}
+
+#main_capacitaciones{
+    background-color: #A0BFE0;
+    color: black;
+}
+
+.BPM{
+    width: 300px;
+}
+
+.HACCP{
+    width: 300px;
+}
+
+.libre_de_gluten{
+    width: 300px;
+}
+
+.PEPS{
+    width: 300px;
+}
+
+.POES{
+    width: 300px;
+}
+
+.Recall{
+    width: 300px;
+}
+
+#main_contacto{
+    background-color: #A0BFE0;
+    color: black;
+}
+
+#main_contacto section h2 {
+    background-color: #2660a4;
+    color: black;
+}
+
+.telefono{
+    width: 150px;
+}
+.email{
+    width: 150px;
+}
+
+footer {
+    background-color: #a499b3;
+    color: white;
+    text-align: center;
+}
+
+.instagram{
+    width: 50px;
+}
+
+.facebook{
+    width: 50px;
+}
+.creador {
+    text-align: left;
+}
