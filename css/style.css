@@ -91,20 +91,104 @@ nav a {
 }
 
 h2 {
+    font-family: "Cormorant garamond";
+    margin-bottom: 20px;
     background-color: #2660a4;
     color: black;
 }
 
-.mujer_laboratorio{
-    width: 250px;
+.descripcion_empresa {
+    margin: 40px;
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
 }
 
-.daniela{
-    width: 250px;
+.nuestro_enfoque {
+    text-align: center;
+    font-size: 25px;
 }
 
-.juan_carlos{
-    width: 250px;
+.valores {
+    text-align: center;
+    font: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.cualidades {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cualidades div {
+    margin: 20px;
+}
+
+h5 {
+    margin: 16px;
+}
+
+.quienes_somos {
+    display: grid;
+    width: 1100px;
+    height: 650px;
+    grid-template-columns: 25% 75%;
+    grid-template-areas:
+        "uno dos "
+        "uno tres"
+        "cuatro cinco"
+        "cuatro seis"
+        "siete ocho"
+        "siete nueve"
+    ;
+    justify-items: start;
+    align-items: center;
+    margin: auto;
+}
+
+.quienes_somos div {
+    margin: 2px;
+}
+
+.uno {
+    grid-area: uno;
+}
+.dos {
+    grid-area: dos;
+}
+.tres {
+    grid-area: tres;
+}
+.cuatro {
+    grid-area: cuatro;
+}
+.cinco {
+    grid-area: cinco;
+}
+.seis {
+    grid-area: seis;
+}
+.siete {
+    grid-area: siete;
+}
+.ocho {
+    grid-area: ocho;
+}
+.nueve {
+    grid-area: nueve;
+}
+
+.daniela {
+    width: 260px;
+}
+.juan_carlos {
+    width: 260px;
+    height: 200px;
+}
+.jimena {
+    width: 260px;
+    height: 200px;
 }
 
 #main_servicios {
