@@ -308,29 +308,114 @@ h5 {
     color: black;
 }
 
+
+.todo_proceso {
+    margin: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.section {
+    display: grid;
+    width: 1089px;
+    height: 1200px;
+    grid-template-columns: 25% 75%;
+    grid-template-areas:
+        "uno dos"
+        "uno tres"
+        "cuatro cinco"
+        "cuatro seis"
+        "siete ocho"
+        "siete nueve"
+        "diez once"
+        "diez doce"
+        "trece catorce"
+        "trece quince"
+        "dieciseis diecisiete"
+        "dieciseis dieciocho"
+    ;
+    justify-items: start;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.section__uno{
+    grid-area: uno;
+}
+.section__dos{
+    grid-area: dos;
+}
+.section__tres{
+    grid-area: tres;
+}
+.section__cuatro{
+    grid-area: cuatro;
+}
+.section__cinco{
+    grid-area: cinco;
+}
+.section__seis{
+    grid-area: seis;
+}
+.section__siete{
+    grid-area: siete;
+}
+.section__ocho{
+    grid-area: ocho;
+}
+.section__nueve{
+    grid-area: nueve;
+}
+.section__diez{
+    grid-area: diez;
+}
+.section__once{
+    grid-area: once;
+}
+.section__doce{
+    grid-area: doce;
+}
+.section__trece{
+    grid-area: trece;
+}
+.section__catorce{
+    grid-area: catorce;
+}
+.section__quince{
+    grid-area: quince;
+}
+.section__dieciseis{
+    grid-area: dieciseis;
+}
+.section__diecisiete{
+    grid-area: diecisiete;
+}
+.section__dieciocho{
+    grid-area: dieciocho;
+}
+
 .BPM{
-    width: 300px;
+    width: 260px;
 }
-
 .HACCP{
-    width: 300px;
+    width: 260px;
+    height: 200px;
 }
-
 .libre_de_gluten{
-    width: 300px;
+    width: 260px;
+    height: 150px;
 }
-
 .PEPS{
-    width: 300px;
+    width: 260px;
 }
-
 .POES{
-    width: 300px;
+    width: 260PX;
+}
+.Recall{
+    width: 260px;
 }
 
-.Recall{
-    width: 300px;
-}
 
 #main_contacto{
     background-color: #A0BFE0;
