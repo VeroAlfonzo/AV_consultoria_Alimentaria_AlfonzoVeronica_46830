@@ -16,7 +16,7 @@
 }
 
 .logo {
-    width: 250px;
+    width: 15.625rem;
     display: inline;
 }
 
@@ -28,8 +28,8 @@
     background-color: #94ADD7;
     display: inline;
     position: relative;
-    top: -123px;
-    left: 140px;
+    top: -7.6875rem;
+    left: 8.75rem;
 }
 
 .Compromiso {
@@ -38,9 +38,10 @@
     text-align: center;
     background-color: #94ADD7;
     display: inline;
+    justify-content: center;
     position: relative;
-    top: -93px;
-    left: -261px;
+    top: -5.8125rem;
+    left: -16.3125rem;
 }
 
 .header {
@@ -49,41 +50,56 @@
     top: 0;
 }
 
-nav {
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #94ADD7;
-    font-size: 20px;
+    font-size: 1.875rem;
+    list-style-type: none;
+    justify-content: center;
 }
 
 a{
+    color: #ffffff;
+    text-decoration: none;
     background-color: #94ADD7;
-    width: 180px;
-    height: 30px;
+    width: 11.25rem;
+    height: 1.875rem;
     display: inline-block;
     text-align: center;
 }
 
-li{
-    display: inline-block;
-}
-
 .nav{
     position: relative;
-    top: -80px;
-    left: 250px;
+    top: -5rem;
+    right: 0rem;
 }
+
+.INICIO:hover{
+    text-decoration: dashed;
+    color: black
+}
+.SERVICIOS:hover{
+    text-decoration: dashed;
+    color: black
+}
+.CLIENTES:hover{
+    text-decoration: dashed;
+    color: black
+}
+.CAPACITACIONES:hover{
+    text-decoration: dashed;
+    color: black
+}
+.CONTACTOS:hover{
+    text-decoration: dashed;
+    color: black
+}
+
 
 h2 {
     font-family: "Cormorant garamond";
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
+    margin-bottom: 1.25rem;
 }
 
 #main_index {
@@ -92,13 +108,13 @@ nav a {
 
 h2 {
     font-family: "Cormorant garamond";
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     background-color: #2660a4;
     color: black;
 }
 
 .descripcion_empresa {
-    margin: 40px;
+    margin: 2.5rem;
     text-align: center;
     text-align: justify;
     font-size: 20px;
@@ -106,14 +122,14 @@ h2 {
 
 .nuestro_enfoque {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 .valores {
     text-align: center;
-    font: 20px;
+    font: 1.25rem;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .cualidades {
@@ -122,17 +138,17 @@ h2 {
 }
 
 .cualidades div {
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 h5 {
-    margin: 16px;
+    margin: 1rem;
 }
 
 .quienes_somos {
     display: grid;
-    width: 1100px;
-    height: 650px;
+    width: 68.75rem;
+    height: 40.625rem;
     grid-template-columns: 25% 75%;
     grid-template-areas:
         "uno dos "
@@ -180,15 +196,15 @@ h5 {
 }
 
 .daniela {
-    width: 260px;
+    width: 16.25rem;
 }
 .juan_carlos {
-    width: 260px;
-    height: 200px;
+    width: 16.25rem;
+    height: 12.5rem;
 }
 .jimena {
-    width: 260px;
-    height: 200px;
+    width: 16.25rem;
+    height: 12.5rem;
 }
 
 #main_servicios {
@@ -197,21 +213,21 @@ h5 {
 }
 
 .servicios_corporativos {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .servicios_restaurantes {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .servicios {
     display: grid;
-    width: 1100px;
-    height: 650px;
+    width: 68.75rem;
+    height: 40.625rem;
     grid-template-columns: 30% 70%;
     grid-template-areas:
         "uno dos "
@@ -255,15 +271,15 @@ h5 {
 }
 
 .ISO {
-    width: 260px;
+    width: 16.25rem;
 }
 
 .gestion {
-    width: 260px;
+    width: 16.25rem;
 }
 
 .documentacion_gestion {
-    width: 260px;
+    width: 16.25rem;
 }
 
 #main_clientes {
@@ -273,7 +289,7 @@ h5 {
 
 .Nuestros_clientes{
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 #main_clientes div {
@@ -283,24 +299,24 @@ h5 {
 }
 
 #main_clientes div img {
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
 }
 
 .arcor{
-    width: 150px;
+    width: 9.375rem;
 }
 
 .canuelas{
-    width: 150px;
+    width: 9.375rem;
 }
 
 .la_virginia{
-    width: 150px;
+    width: 9.375rem;
 }
 
 .manaos{
-    width: 150px;
+    width: 9.375rem;
 }
 
 #main_capacitaciones{
@@ -310,15 +326,15 @@ h5 {
 
 
 .todo_proceso {
-    margin: 30px;
+    margin: 1.875rem;
     text-align: justify;
     font-size: 20px;
 }
 
-.section {
+.section_capacitaciones {
     display: grid;
-    width: 1089px;
-    height: 1200px;
+    width: 68.0625rem;
+    height: 75rem;
     grid-template-columns: 25% 75%;
     grid-template-areas:
         "uno dos"
@@ -396,45 +412,74 @@ h5 {
 }
 
 .BPM{
-    width: 260px;
+    width: 16.25rem;
+    height: 100%;;
+    margin: 5px;
 }
 .HACCP{
-    width: 260px;
-    height: 200px;
+    width: 16.25rem;
+    height: 100%;
+    margin: 5px;
 }
 .libre_de_gluten{
-    width: 260px;
-    height: 150px;
+    width: 16.25rem;
+    height: 100%;
+    margin: 5px;
 }
 .PEPS{
-    width: 260px;
+    width: 16.25rem;
+    margin: 5px;
 }
 .POES{
-    width: 260PX;
+    width: 16.25rem;
+    margin: 5px;
 }
 .Recall{
-    width: 260px;
+    width: 16.25rem;
+    margin: 5px;
 }
 
+#body_contacto {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+.header_contacto {
+    width: 100%;
+    height: 18.5rem;
+    background-color: #94ADD7;
+    position: sticky;
+    top: 0;
+}
+
+#main_contacto {
+    background-color: #A0BFE0;
+    color: black;
+}
+
+.logo_contacto {
+    width: 15.625rem;
+    display: inline;
+}
 
 #main_contacto section h2 {
     background-color: #2660a4;
     color: black;
 }
 
-.contacto_AV {
+.AV_contacto {
     font-family: 'Noto Serif Display', serif;
     text-align: center;
     color: rgb(250, 250, 253);
-    font-size: 50px;
+    font-size: 3.125rem;
     background-color: #94ADD7;
     display: inline;
     position: relative;
-    top: -16px;
-    left: 140px;
+    top: -1rem;
+    left: 8.75rem;
 }
 
-.contacto_Compromiso {
+.Compromiso_contacto {
     font-family: 'Noto Serif Display', serif;
     font-style: italic;
     text-align: center;
@@ -442,37 +487,46 @@ h5 {
     display: inline;
     justify-content: center;
     position: relative;
-    top: 12px;
-    left: -261px;
+    top: .75rem;
+    left: -16.3125rem;
 }
 
-.contacto_nav ul {
+.nav_contacto ul {
     display: flex;
     flex-wrap: wrap;
     background-color: #94ADD7;
-    font-size: 30px;
+    font-size: 1.875rem;
     list-style-type: none;
     justify-content: center;
+    margin-bottom: 0px;
 }
 
-.contacto_ul a {
+.a_contacto {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.875rem;
     color: #ffffff;
     text-decoration: none;
     background-color: #94ADD7;
-    width: 180px;
-    height: 30px;
+    width: 11.25rem;
+    height: 1.875rem;
     display: inline-block;
     text-align: center;
+} 
+
+.nav_contacto {
+    position: relative;
+    top: -4.25rem;
+    right: 0rem;
 }
 
 .telefono {
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
 }
 
 .email {
-    width: 120px;
-    height: 120px;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
 footer {
@@ -482,51 +536,59 @@ footer {
 }
 
 .instagram {
-    width: 50px;
+    width: 3.125rem;
 }
 
 .facebook {
-    width: 50px;
+    width: 3.125rem;
 }
 
 .creador {
     text-align: left;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 576px) {
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
     .logo {
-        width: 150px;
+        width: 9.375rem;
         display: inline;
     }
 
     .AV {
-        font-family: 'Noto Serif Display', serif;
-        color: rgb(250, 250, 253);
-        font-size: 30px;
-        background-color: #94ADD7;
+        font-size: 1.875rem;
         position: relative;
-        top: -91px;
-        left: 11px;
+        top: -5.6875rem;
+        left: .6875rem;
     }
 
     .Compromiso {
-        font-family: 'Noto Serif Display', serif;
-        font-style: italic;
-        text-align: center;
-        background-color: #94ADD7;
-        left: 189px;
+        position: relative;
+        top: -4rem;
+        left: 11.8125rem;
     }
 
     .nav {
         position: relative;
-        top: -45px;
-        right: 0px;
+        top: -2.8125rem;
+        right: 0rem;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.5625rem;
+        list-style-type: none;
+        justify-content: center;
     }
 
     .quienes_somos {
         display: grid;
-        width: 541px;
-        height: 708px;
+        width: 33.8125rem;
+        height: 44.25rem;
         grid-template-columns: 40% 60%;
         grid-template-areas:
             "uno dos"
@@ -538,21 +600,21 @@ footer {
     }
 
     .daniela {
-        width: 207px;
+        width: 12.9375rem;
     }
     .juan_carlos {
-        width: 207px;
-        height: 175px;
+        width: 12.9375rem;
+        height: 10.9375rem;
     }
     .jimena {
-        width: 207px;
-        height: 187px;
+        width: 12.9375rem;
+        height: 11.6875rem;
     }
 
     .servicios {
         display: grid;
-        width: 541px;
-        height: 708px;
+        width: 33.8125rem;
+        height: 44.25rem;
         grid-template-columns: 40% 60%;
         grid-template-areas:
             "uno dos"
@@ -564,12 +626,111 @@ footer {
     }
 
     .ISO {
-        width: 207px;
+        width: 12.9375rem;
     }
     .gestion {
-        width: 207px;
+        width: 12.9375rem;
     }
     .documentacion_gestion {
-        width: 207px;
+        width: 12.9375rem;
     }
+
+    .Nuestros_clientes{
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    #main_clientes div img {
+        width: 9.375rem;
+        height: 9.375rem;
+        margin: 5px;
+    }
+
+    .todo_proceso {
+    margin: 1.875rem;
+    text-align: justify;
+    font-size: 1.25rem;
+    }
+
+    .section_capacitaciones {
+        display: grid;
+        width: 68.0625rem;
+        height: 75rem;
+        grid-template-columns: 25% 75%;
+        grid-template-areas:
+            "uno dos"
+            "uno tres"
+            "uno tres"
+            "cuatro cinco"
+            "cuatro seis"
+            "siete ocho"
+            "siete nueve"
+            "diez once"
+            "diez doce"
+            "trece catorce"
+            "trece quince"
+            "dieciseis diecisiete"
+            "dieciseis dieciocho"
+        ;
+    }
+
+    .BPM{
+        width: 16.25rem;
+        height: 100%;;
+        margin: 5px;
+    }
+    .HACCP{
+        width: 16.25rem;
+        height: 100%;
+        margin: 5px;
+    }
+    .libre_de_gluten{
+        width: 16.25rem;
+        height: 100%;
+        margin: 5px;
+    }
+    .PEPS{
+        width: 16.25rem;
+        margin: 5px;
+    }
+    .POES{
+        width: 16.25rem;
+        margin: 5px;
+    }
+    .Recall{
+        width: 16.25rem;
+        margin: 5px;
+    }
+    
+    .AV_contacto {
+        font-size: 1.875rem;
+        background-color: #94ADD7;
+        position: relative;
+        top: -0.6875rem;
+        left: 0.6875rem;
+    }
+
+    .logo_contacto {
+        width: 9.375rem
+    }
+
+    .nav_contacto {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.5625em;
+        list-style-type: none;
+        justify-content: center;
+    }
+
+    .Compromiso_contacto {
+        display: block;
+        position: relative;
+        top: -1rem;
+        left: 1.8125rem;
+    }
+
+    .nav_contacto {
+        top: -1.25rem;
+    }
+
 }
